@@ -1,0 +1,5 @@
+2013-04-29 20:03:47,681 storage.1 debug /Users/dosa/sscloud-dosa-code/log/dtest.py function1 8 No define No define None
+2013-04-29 20:03:47,693 storage.1 info /Users/dosa/sscloud-dosa-code/log/dtest.py function1 9 test1 1234 20
+2013-04-29 20:03:47,700 storage.1 warning /Users/dosa/sscloud-dosa-code/log/dtest.py function1 10 test1 1234 30
+2013-04-29 20:03:47,714 storage.1 error /Users/dosa/sscloud-dosa-code/log/dtest.py function1 11 test1 1234 40
+2013-04-29 20:03:47,734 storage.1 critical /Users/dosa/sscloud-dosa-code/log/dtest.py function1 12 test1 1234 50

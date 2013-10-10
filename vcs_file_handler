@@ -1,0 +1,4 @@
+vcs_file_handler = logging.FileHandler(config.GlobalSetting.ip_mapper_server_logging_path)
+vcs_file_handler.setFormatter(logging.Formatter('%(asctime)s - (%(name)s:%(lineno)d) - %(levelname)s - %(message)s'))
+vcs_file_handler.setLevel(config.GlobalSetting.ip_mapper_server_logging_level)
+logging.getLogger('vcs').addHandler(vcs_file_handler)
